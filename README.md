@@ -19,3 +19,4 @@ První kompletní překlad prošlý odbornou korekturou. Zbývá vyřešit:
 - Pasáže, které tam přibyly oproti originálu. Kromě pasáže o střední hodnotě, ohledně které se Honza domluvil s autorem, jde o definice v bodech 1.6 a 9.2. Opatřit poznámkou, že toto bylo v překladu doplněno?
 - Překlady obrázků.
 - Detaily v glosářích a rejstříku.
+- Pro kompilaci do PDF zatím používám shellovou rutinu v souboru process.sh.
