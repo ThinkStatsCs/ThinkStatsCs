@@ -37,12 +37,16 @@
 \usepackage{hevea}
 \usepackage{upquote}
 \usepackage{sectsty}
+\usepackage{multicol}
 
 \title{Think Stats}
 \author{Allen B. Downey}
 
 \newcommand{\thetitle}{Think Stats: Probability and Statistics for Programmers}
 \newcommand{\theversion}{1.6.0}
+
+\usepackage{enumitem}
+\setlist[description]{itemindent=0cm,leftmargin=0cm,style=unboxed}
 
 % these styles get translated in CSS for the HTML version
 \newstyle{a:link}{color:black;}
@@ -878,8 +882,9 @@ Jestliže najdete publikovaný článek, který se zabývá vaší otázkou, mě
 
 
 \section{\protect\raggedright Glosář}
-
+\begin{multicols}{2}
 \begin{description}
+\raggedright{
 
 \item[anekdotický důkaz (anecdotal evidence):] Důkaz, často osobní povahy, který je získán neformální cestou namísto dobře naplánované studie.
 \index{anekdotický důkaz}
@@ -939,8 +944,9 @@ Jestliže najdete publikovaný článek, který se zabývá vaší otázkou, mě
 
 \item[artefakt (artifact):] Pozorované zjištění, které je způsobeno zkreslením, chybou měření nebo jiným druhem chyby.
 \index{artefakt}
-
+}
 \end{description}
+\end{multicols}
 
 
 
