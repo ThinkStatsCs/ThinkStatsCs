@@ -2,6 +2,7 @@
 
 # cd /Users/janmartinek/Documents/Projekty/diplomka
 
+rm -rf out
 mkdir out
 cp book.tex out/book.tex
 cp -r figs out
@@ -26,3 +27,5 @@ mv out/book.tmp2 out/book.tex
 cd out
 pdflatex book.tex
 pdflatex book.tex
+
+open book.pdf
