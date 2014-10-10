@@ -26,6 +26,7 @@ mv out/book.tmp2 out/book.tex
 
 cd out
 pdflatex book.tex
+xindy -L czech -C utf8 -M texindy -M page-ranges book.idx
 pdflatex book.tex
 
 open book.pdf
