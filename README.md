@@ -9,6 +9,10 @@ ThinkStatsCs je český překlad knihy Think Stats: Probability and Statistics f
 
 # Protokol změn
 
+## 0.9.9 2014-10-10 
+
+Téměř hotovo. Problémy z předchozího releasu jsou vyřešené. Zbývá dořešit publikační údaje, ISBN a projít knížku, zda se někde něco nepokazilo.
+
 ## 9.0 2014-09-06 
 
 První kompletní překlad prošlý odbornou korekturou. Zbývá vyřešit:
@@ -20,3 +24,4 @@ První kompletní překlad prošlý odbornou korekturou. Zbývá vyřešit:
 - Překlady obrázků.
 - Detaily v glosářích a rejstříku.
 - Pro kompilaci do PDF zatím používám shellovou rutinu v souboru process.sh.
+
